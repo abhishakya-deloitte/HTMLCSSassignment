@@ -1,17 +1,51 @@
 body{
     box-sizing: border-box;
+    margin:0 auto;
+}
+.title{
+    height:3rem;
+    background-color: #f1f1e3;
+    display:flex;
+}
+.logo{
+    height: 5rem;
+    width: 15rem;
+}
+.courses{
+    position:fixed;
+    top:13px;
+    left:90rem;
+}
+.wish{
+    position:fixed;
+    top:13px;
+    left:100rem;
 }
 
-.react{
+.icons{
+    width: 30rem;
+    height: 4rem;
+    position:fixed;
+    top:5px;
+    left:90rem;
+}
+.cart-icon{
+    height: 2rem;
     position: fixed;
-    top: 3.5rem;
-    left:15rem;
-    width:85vw;
+    left: 110rem;
+}
+.user-icon{
+    height: 2rem;
+    position: fixed;
+    left: 115rem;
 }
 
 .reactimg{
-    width:100%;
-    height:6rem;
+    width: 79.5%;
+    height: 6rem;
+    position: absolute;
+    top: 3.5rem;
+    left: 15rem;
 }
 
 .content{
@@ -51,7 +85,7 @@ body{
 
 .box .r1{
     position: relative;
-    background-color: rgb(226, 25, 25);
+    background-color: #ff8000;
     top: 3.5rem;
     left: -14rem;
     height: 1.7rem;
@@ -62,7 +96,7 @@ body{
 
 .box .r2{
     position: relative;
-    background-color: rgb(235, 28, 28);
+    background-color: #ff8000;
     top: 3.5rem;
     left: -14rem;
     height: 1.7rem;
@@ -88,8 +122,14 @@ body{
     left: 14rem;
     height: 4rem;
     width:9rem;
-    background-color: rgb(235, 28, 28);
+    background-color: #ff8000;
     color:white;
+}
+
+.tag-icon{
+    position: relative;
+    top: 32px;
+    left: 14.5rem;
 }
 .box .price{
     position: relative;
@@ -103,7 +143,7 @@ body{
     border: 1px solid;
     position: fixed;
     top: 12.5rem;
-    left: 97rem;
+    left: 90rem;
 }
 
 .cart .head{
@@ -128,7 +168,33 @@ body{
 .search{
     position: absolute;
     top: 10rem;
-    left: 97rem;
+    left: 90rem;
     height: 2.5rem;
     width: 16.1rem;
+}
+.search-icon{
+    position: absolute;
+    height: 2.5rem;
+    width: 4rem;
+    left: 88.5vw;
+    top: 10rem;
+}
+
+.page{
+    display: flex;
+    position:fixed;
+    top:57rem;
+    left:20rem;
+}
+
+.page-icon{
+    color:#ff8000;
+    margin-right:1rem;
+    
+}
+.num.one{
+    background-color:#ff8000;
+}
+.num{
+    margin-right:1rem;
 }
