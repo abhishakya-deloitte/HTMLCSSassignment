@@ -1,0 +1,134 @@
+body{
+    box-sizing: border-box;
+}
+
+.react{
+    position: fixed;
+    top: 3.5rem;
+    left:15rem;
+    width:85vw;
+}
+
+.reactimg{
+    width:100%;
+    height:6rem;
+}
+
+.content{
+    position:fixed;
+    top:9rem;
+    left:15rem;
+}
+
+.box{
+    display:flex;
+    height:6rem;
+    width :60vw;
+    margin-bottom:20px;
+    border:0.5px solid black;
+    background-color: #fcfcf6;
+}
+.box .pic{
+    position: relative;
+    top: 10px;
+    left: 4rem;
+    background: #f5f5da;
+    height: 4.55rem;
+    width: 6rem;
+}
+
+.box .name{
+    position: relative;
+    top: 10px;
+    left: 7rem;
+}
+
+.box .emp{
+    position: relative;
+    top: 32px;
+    left: 15rem;
+}
+
+.box .r1{
+    position: relative;
+    background-color: rgb(226, 25, 25);
+    top: 3.5rem;
+    left: -14rem;
+    height: 1.7rem;
+    width: 5rem;
+    margin-right:1rem;
+    color:white;
+}
+
+.box .r2{
+    position: relative;
+    background-color: rgb(235, 28, 28);
+    top: 3.5rem;
+    left: -14rem;
+    height: 1.7rem;
+    width: 5rem;
+    color:white;
+}
+
+.box .star{
+    position: relative;
+    toP: 26px;
+    left: 7rem;
+    height: 2rem;
+}
+
+.box .max-price{
+    position: relative;
+    top: 15px;
+    left: 10rem;
+}
+.box .add{
+    position: relative;
+    top: 14px;
+    left: 14rem;
+    height: 4rem;
+    width:9rem;
+    background-color: rgb(235, 28, 28);
+    color:white;
+}
+.box .price{
+    position: relative;
+    top: 32px;
+    left: 8rem;
+    height: 2rem;
+}
+.cart{
+    height: 57vh;
+    width: 20rem;
+    border: 1px solid;
+    position: fixed;
+    top: 12.5rem;
+    left: 97rem;
+}
+
+.cart .head{
+    height:4rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart .details{
+    height:24rem;
+}
+
+.choose{
+    position: absolute;
+    top: 10rem;
+    left: 75rem;
+    height: 2rem;
+    width: 12rem;
+    
+}
+.search{
+    position: absolute;
+    top: 10rem;
+    left: 97rem;
+    height: 2.5rem;
+    width: 16.1rem;
+}
